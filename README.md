@@ -2,10 +2,9 @@
 
 This bindings are based on libquantum v1.1.1. The ffi.cdef were preprocessed from quantum.h:
 
-``bash
-gcc -DLINUX -C -E /usr/include/quantum.h  > /tmp/quantum.h
-
-``
+````
+$ gcc -DLINUX -C -E /usr/include/quantum.h  > preprocessed-quantum.h
+````
 
 ## Test
 
